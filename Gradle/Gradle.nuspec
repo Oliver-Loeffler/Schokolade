@@ -3,23 +3,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>ApacheIvy</id>
-    <title>Apache Ivy</title>
-    <version>0.2.1</version>
+    <id>Gradle</id>
+    <title>Gradle Inc. Gradle</title>
+    <version>3.2.1</version>
     <authors>Oliver Löffler</authors>
     <owners>Oliver Löffler</owners>
-    <summary>Installs Apache Ivy(TM) - the agile dependency manager.</summary>
-    <description>Apache Ivy(TM) is a lean dependency manager which nicely integrates with Apache Ant(TM). The package "Ivy" available at chocolatey.org fails to install due to broken MD5 hash, so this one does the job.</description>
+    <summary>Installs Gradle Inc. Build Tool - best of Ant, Ivy and Maven in one tool</summary>
+    <description>Gradle Inc. Build Tool. Gradle offers build automation and dependency management configurable using its own DSL based on Groovy.</description>
     <projectUrl>http://www.raumzeitfalle.net</projectUrl>
     <tags>Oliver Löffler</tags>
     <copyright></copyright>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/__NAME__.png</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
