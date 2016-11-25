@@ -26,3 +26,8 @@ When Gradle was executed or still is running immediately prior to deinstallation
 it may happen that some of Gradle's binary files are not deleted.
 Those files may have to be removed manually.
 With a default Chocolatey installation, the possibly left over files may be located at: C:\ProgramData\Chocolatey\lib\ChocolateyGUI\tools .
+
+## Disclaimer
+
+This is not an official project by Gradle Inc.
+Purpose of this project is simply to make Gradle setup as easy as possible.
