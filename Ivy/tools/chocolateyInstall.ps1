@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop'
 $toolsDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
  
 $packageArgs = @{
-  packageName   = 'ivy'
+  packageName   = 'ApacheIvy'
   unzipLocation = $toolsDir
   url           = 'ftp://ftp.fu-berlin.de/unix/www/apache//ant/ivy/2.4.0/apache-ivy-2.4.0-bin.zip'
   softwareName  = 'ivy*'
