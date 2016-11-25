@@ -20,7 +20,7 @@ choco install Gradle -source 'c:\path\to\Gradle\' -f
 
 ## Removing the package
 
-choco uninstall Gradle
+Run 'choco uninstall Gradle'
 
 When Gradle was executed or still is running immediately prior to deinstallation,
 it may happen that some of Gradle's binary files are not deleted.
