@@ -10,10 +10,10 @@
     <owners>Oliver Löffler</owners>
     <summary>Installs Gradle Inc. Build Tool - best of Ant, Ivy and Maven in one tool</summary>
     <description>Gradle Inc. Build Tool. Gradle offers build automation and dependency management configurable using its own DSL based on Groovy.</description>
-    <projectUrl>http://www.raumzeitfalle.net</projectUrl>
+    <projectUrl>https://gradle.org/</projectUrl>
     <tags>Oliver Löffler</tags>
     <copyright></copyright>
-    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <licenseUrl>https://gradle.org/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://gradle.org/wp-content/uploads/2015/10/gradle.ico</iconUrl>
     <releaseNotes></releaseNotes>
