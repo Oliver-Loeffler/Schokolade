@@ -9,6 +9,8 @@ The IDE will be accessible from command line using the "eclipse" command, a shim
 
 Run 'choco pack' to build package.
 
+![Demo on CLI](https://github.com/Oliver-Loeffler/Schokolade/blob/master/EclipseJavaSE/pages/01_Pack.png)
+
 ## Package installation
 
 Run 'choco install EclipseJavaSE -s "$pwd" -f' on PowerShell to install.
@@ -17,6 +19,8 @@ Run 'choco install EclipseJavaSE '%cd%' -f' on CMD or Bash to install.
 or run:
 
 choco install EclipseJavaSE -source 'c:\path\to\EclipseJavaSE\' -f
+
+![Demo on CLI](https://github.com/Oliver-Loeffler/Schokolade/blob/master/EclipseJavaSE/pages/02_Install.png)
 
 ## Removing the package
 
