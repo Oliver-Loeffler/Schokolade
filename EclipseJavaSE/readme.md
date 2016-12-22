@@ -25,6 +25,10 @@ or run:
 
 choco install EclipseJavaSE -source 'c:\path\to\EclipseJavaSE\' -f
 
+Well in case of upgrading from an earlier version on PowerShell run:
+
+'choco upgrade EclipseJavaSE -s "$pwd" -f'
+
 ![Demo on CLI](https://github.com/Oliver-Loeffler/Schokolade/blob/master/EclipseJavaSE/pages/02_Install.png)
 
 ## Removing the package
