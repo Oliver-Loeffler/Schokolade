@@ -1,6 +1,6 @@
 # Eclipse.org IDE for Java developers
 
-This package installs the 64bit version of the Java IDE provided by Eclipse.org (Neon.1). 
+This package installs the 64bit version of the Java IDE provided by Eclipse.org (Neon.2). 
 No additional plugins or conigurations are defined or packaged. The install file downloads the binary package (Zip) from Eclipse.org FTP mirror at Friedrich-Alexander-University Erlangen-Nürnberg.
 
 
