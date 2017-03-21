@@ -4,10 +4,10 @@ Provides a simple solution to install GitBucket git-scm repository manager using
 Visit https://gitbucket.github.io/gitbucket-news/ for more details.
 
 As GitBucket is a web application, it will launch a HTTP server on port 8081 (which is not GitBucket default).
-Right after installation using ``` choco install GitBucket ``` it is recommended to restart PowerShell or Windows command line (CMD).
-The GitBucket can be started by typing:
+Right after installation using `` choco install GitBucket `` it is recommended to restart PowerShell or Windows command line (CMD).
+The GitBucket can be started by typing `` gitbucket ``.
 
-	``` gitbucket ``` 
+	
 	
 The launch script (gitbucket.cmd) will create a folder ``` \.GitBucket ``` in user home direcory. When the directory exists, the existing content is going to be served by GitBucket.
 
