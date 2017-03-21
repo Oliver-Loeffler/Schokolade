@@ -15,8 +15,8 @@ $packageArgs = @{
   fileFullPath = $gitbucket_jar
 }
  
-if(!(Test-Path ($env:HOMEPATH + "\.GitBucket"))) {
-   mkdir ($env:HOMEPATH + "\.GitBucket")
+if(!(Test-Path ($env:HOMEDRIVE + $env:HOMEPATH + "\.GitBucket"))) {
+	New-Item -ItemType Directory -Force -Path ($env:HOMEDRIVE + $env:HOMEPATH + "\.GitBucket")
 }
  
 Get-ChocolateyWebFile @packageArgs
