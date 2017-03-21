@@ -1,0 +1,1 @@
+java -jar %GITBUCKET_HOME%\gitbucket.jar --port=8081 --gitbucket.homedir=%HOMEPATH%\.GitBucket
