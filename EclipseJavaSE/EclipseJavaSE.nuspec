@@ -5,11 +5,11 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>EclipseJavaSE</id>
     <title>Eclipse IDE for JAVA Developers</title>
-    <version>4.6.2</version>
+    <version>4.6.3</version>
     <authors>Oliver Löffler</authors>
     <owners>Oliver Löffler</owners>
     <summary>Installs the Eclipse IDE for JAVA SE Developers.</summary>
-    <description>The Eclipse IDE for JAVA SE development as the 64bit version of Neon.2. The package is retrieved from Friedrich-Alexander-University Erlangen-Nürnberg FTP mirror. No customizations are applied, no plugins installed. Eclipse can be started then from command line (i.e. PowerShell) just by typing eclipse.</description>
+    <description>The Eclipse IDE for JAVA SE development as the 64bit version of Neon.3. The package is retrieved from Friedrich-Alexander-University Erlangen-Nürnberg FTP mirror. No customizations are applied, no plugins installed. Eclipse can be started then from command line (i.e. PowerShell) just by typing eclipse.</description>
     <projectUrl>https://www.eclipse.org/</projectUrl>
     <tags>Oliver Löffler</tags>
     <copyright></copyright>
