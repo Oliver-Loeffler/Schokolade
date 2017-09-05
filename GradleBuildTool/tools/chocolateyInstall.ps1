@@ -1,15 +1,15 @@
 $tools = Split-Path $MyInvocation.MyCommand.Definition
 $package = Split-Path $tools
-$gradle_home = Join-Path $package 'gradle-3.2.1'
+$gradle_home = Join-Path $package 'gradle-4.1'
 $gradle_bat = Join-Path $gradle_home 'bin/gradle.bat'
 
 
 $packageArgs = @{
   packageName   = 'Gradle'
   unzipLocation = $package
-  url           = 'https://services.gradle.org/distributions/gradle-3.2.1-all.zip'
+  url           = 'https://services.gradle.org/distributions/gradle-4.1-bin.zip'
   softwareName  = 'Gradle Inc. Gradle'
-  checksum      = 'D44DBA900FF364103E1F45C0F4B27BBE'
+  checksum      = '3014F027AE08BF3D9F7360E4E4352E80'
   checksumType  = 'md5'
 }
  

@@ -1,6 +1,6 @@
-# Gradle 3 Package
+# Gradle 4.1 Package
 
-This package installs the full Gradle 3.2.1 build tool package, containing Java binaries, sources and documentation. 
+This package installs the full Gradle 4.1 build tool package, containing Java binaries, sources and documentation. 
 Manual download is possible under https://gradle.org/gradle-download/.
 GRADLE_HOME environment variable is set as a system variable, so Gradle will be available to all users.
 
