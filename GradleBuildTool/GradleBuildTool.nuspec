@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>GradleBuildTool</id>
     <title>Gradle Inc. Gradle</title>
-    <version>4.10.2</version>
+    <version>6.1.1</version>
     <authors>Oliver Löffler</authors>
     <owners>Oliver Löffler</owners>
     <summary>Installs Gradle Inc. Build Tool - best of Ant, Ivy and Maven in one tool</summary>
