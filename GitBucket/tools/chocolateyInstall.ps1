@@ -8,9 +8,9 @@ $gitbucket_launcher = $toolsDir + "\gitbucket.cmd"
 $packageArgs = @{
   packageName   = 'GitBucket'
   unzipLocation = $toolsDir
-  url           = 'https://github.com/gitbucket/gitbucket/releases/download/4.10/gitbucket.war'
+  url           = 'https://github.com/gitbucket/gitbucket/releases/download/4.33.0/gitbucket.war'
   softwareName  = 'GitBucket'
-  checksum      = '9cebbe8af2f8190dc9a0d6e01bb25d5a'
+  checksum      = '35e190ddb7a2f9760d43617d2e6325c2a745ba66061daa3fa95cc9d871423506'
   checksumType  = 'md5'
   fileFullPath = $gitbucket_jar
 }
