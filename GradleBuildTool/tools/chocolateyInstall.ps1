@@ -1,16 +1,16 @@
 $tools = Split-Path $MyInvocation.MyCommand.Definition
 $package = Split-Path $tools
-$gradle_home = Join-Path $package 'gradle-4.1'
+$gradle_home = Join-Path $package 'gradle-4.10.2'
 $gradle_bat = Join-Path $gradle_home 'bin/gradle.bat'
 
 
 $packageArgs = @{
   packageName   = 'Gradle'
   unzipLocation = $package
-  url           = 'https://services.gradle.org/distributions/gradle-4.1-bin.zip'
+  url           = 'https://services.gradle.org/distributions/gradle-4.10.2-bin.zip'
   softwareName  = 'Gradle Inc. Gradle'
-  checksum      = '3014F027AE08BF3D9F7360E4E4352E80'
-  checksumType  = 'md5'
+  checksum      = 'b49c6da1b2cb67a0caf6c7480630b51c70a11ca2016ff2f555eaeda863143a29'
+  checksumType  = 'sha256'
 }
  
 Install-ChocolateyZipPackage @packageArgs
