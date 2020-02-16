@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>EclipseJavaSE</id>
     <title>Eclipse IDE for JAVA Developers</title>
-    <version>4.7</version>
+    <version>4.7.1</version>
     <authors>Oliver Löffler</authors>
     <owners>Oliver Löffler</owners>
     <summary>Installs the Eclipse IDE for JAVA SE Developers.</summary>
